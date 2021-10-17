@@ -1,0 +1,4 @@
+[submodule "external/npm-actions"]
+	path = external/npm-actions
+	url = git@github.com:nujarum/npm-actions.git
+	branch = main
