@@ -1,0 +1,14 @@
+{
+  "name": "test-repo",
+  "description": "",
+  "version": "0.0.1",
+  "author": "",
+  "keywords": [],
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "private": true,
+  "repository": "github:nujarum/test-repo.git",
+  "scripts": {
+    "test": "node test.js"
+  }
+}
