@@ -1,0 +1,16 @@
+name: CodeQL Analyze
+
+on:
+  push:
+    paths:
+      - "src/**"
+      - "test/**"
+  pull_request:
+    paths:
+      - "src/**"
+      - "test/**"
+  workflow_dispatch:
+
+jobs:
+  analyze:
+    uses: nujarum/actions/.github/workflows/codeql-analysis.yml@main
